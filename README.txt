@@ -8,10 +8,10 @@ void     matrix_free(Matrix M);
 	: This function does free to the parameter M.
 
 int      matrix_get(Matrix M,int i,int j);
-	: As the elements of a Matrix type are opaqued, we need a function 		that access to those elements. This is that function. 
+	: As the elements of a Matrix type are opaqued, we need a function that access to those elements. This is that function. 
 
 int      matrix_set(Matrix M, int new, int i, int j);
-	: Pretty similar to matrix_get, tough this function changes the 		value of a element at the positions i,j.
+	: Pretty similar to matrix_get, tough this function changes the value of a element at the positions i,j.
 
 void     matrix_print(Matrix M);
 	: Prints the actual content of M.
